@@ -2,7 +2,7 @@
 
 Verilog
 
-```hdl
+```verilog
 module halfadder(a,b,sum,carry);
 input a,b;
 output sum,carry;
