@@ -12,7 +12,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module halfadder_tb;
 reg a;
 reg b;
@@ -36,7 +36,7 @@ endmodule
 
 Verilog
 
-```hdl
+```verilog
 module HS(a,b,diff,borrow);
 input a,b;
 output diff,borrow;
@@ -46,7 +46,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module HS_tb;
 reg a;
 reg b;
@@ -70,7 +70,7 @@ endmodule
 
 Verilog
 
-```hdl
+```verilog
 module FA(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -80,7 +80,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module FA_tb;
 reg a;
 reg b;
@@ -111,7 +111,7 @@ endmodule
 
 Verilog
 
-```hdl
+```verilog
 module FS(a,b,c,diff,borrow);
 input a,b,c;
 output diff,borrow;
@@ -121,7 +121,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module FS_tb;
 reg a;
 reg b;
@@ -152,7 +152,7 @@ endmodule
 
 Verilog
 
-```hdl
+```verilog
 module two_one(i1,i2,s,y);
 input i1,i2,s;
 output y;
@@ -161,7 +161,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module top;
 reg i1,i2,s;
 wire y;
@@ -179,7 +179,7 @@ endmodule
 
 Verilog
 
-```hdl
+```verilog
 module four_to_one_MUX
 (I1,I2,I3,I4,S1,S2,Y);
  input I1,I2,I3,I4;
@@ -194,7 +194,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module four_to_one_MUX_tb;
 reg I1;
 reg I2;
@@ -224,7 +224,7 @@ endmodule
 
 Verilog
 
-```hdl
+```verilog
 module eight_to_one_MUX
 (I1,I2,I3,I4,I5,I6,I7,I8,S1,S2,S3,Y);
  input I1,I2,I3,I4,I5,I6,I7,I8;
@@ -240,7 +240,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module eight_to_one_MUX1;
 reg I1;
 reg I2;
@@ -271,7 +271,7 @@ endmodule
 
 Verilog
 
-```hdl
+```verilog
 module deciadder(a,b,carry_in,sum,carry);
 //declare the inputs and outputs of the module with their sizes.
  input [3:0] a,b;
@@ -302,7 +302,7 @@ endmodule
 ```
 
 TestBench
-```hdl
+```verilog
 module deciadder_tb;
 reg [3:0] a;
 reg [3:0] b;
